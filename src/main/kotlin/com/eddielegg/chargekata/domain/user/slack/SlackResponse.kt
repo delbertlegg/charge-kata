@@ -16,4 +16,4 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo
 /**
  * Slack API Response Object model
  */
-abstract class SlackResponse(val ok: Boolean)
+abstract class SlackResponse(ok: Boolean)

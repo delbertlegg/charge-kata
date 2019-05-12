@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate
 @SpringBootApplication
 @PropertySources(
         PropertySource("classpath:application.properties"),
-        PropertySource(value = "classpath:application.properties.local", ignoreResourceNotFound = true)
+        PropertySource("classpath:application.properties.local", ignoreResourceNotFound = true)
 )
 class ChargeKataApplication {
     /**
