@@ -5,9 +5,7 @@ This is an exercise based on the Gist provided for the AEP Charge Kata
 
 ### Special Instructions
 
-Both the application and the tests expect a `application.properties.local` file in the `resources` folder that define 
-the implementation specific properties. For the purposes of this exercise, there are two properties expected in order 
-to successfully run the tests:
+Both the application and the tests expect a `application.properties.local` file in the `resources` folders (both `main` and `test` packages) that define the implementation specific properties. For the purposes of this exercise, there are two properties expected in order to successfully run the tests:
 
 - `interface.slack.token.user`: This is the token provided by the Slack API to retrieve user information. Note that the
 token must include both the `users:read` and `users:read.email` scope in order to retrieve the full details of the user
